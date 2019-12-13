@@ -6,11 +6,11 @@ TensorFlow and Matlab.
 
 ## **Usage**
 1. Clone the repo
-2. Download the checkpoint from https://www.dropbox.com/s/fkoox0t3jwrf92q/checkpoint.rar?dl=0;
-3. Generate the preprocessing data by usint the "generate_test_data.m" in the generate_test_data.
-4. Put the inputs to corresponding folders (raw images to "test_real",  WB images to "wb_real", GC images to "gc_real", HE images to "ce_real");
-5. Python main_test.py;
-6. Find the result in "test_real".
+2. Download the checkpoint from Dropbox: https://www.dropbox.com/s/fkoox0t3jwrf92q/checkpoint.rar?dl=0 or Baidu Cloud: https://pan.baidu.com/s/1aWckT66dWbB0-h1DJxIUsg
+3. Generate the preprocessing data by usint the "generate_test_data.m" in the generate_test_data
+4. Put the inputs to corresponding folders (raw images to "test_real",  WB images to "wb_real", GC images to "gc_real", HE images to "ce_real")
+5. Python main_test.py
+6. Find the result in "test_real"
 
 # Contact Us
 If you have any questions, please contact us (lichongyi25@gmail.com or lichongyi@tju.edu.cn).
