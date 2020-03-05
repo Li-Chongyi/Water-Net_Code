@@ -22,7 +22,7 @@ TensorFlow 1.x and Matlab.
 3. Generate the preprocessing training data by using the "generate_training_data.m" in folder named generate_test_data
 4. Put the training data to corresponding folders (raw images to "input_train",  WB images to "input_wb_train", GC images to "input_gc_train", HE images to "input_ce_train", Ground Truth images to "gt_train"); We randomly select the training data from our released dataset. The performance of different training data is almost same
 5. In this code, you can add validation data by preprocessing your validation data (with GT) by the "generate_validation_data.m" in folder named generate_test_data, then put them to the corresponding folders (raw images to "input_test",  WB images to "input_wb_test", GC images to "input_gc_test", HE images to "input_ce_test", Ground Truth images to "gt_test")
-6. For your convenience, we provide a set of training and testing data. You can find them by unzip "a set of training and testing data". However, the training data and testing data are diffrent from those used in our paper.
+6. For your convenience, we provide a set of training and testing data. You can find them by unziping "a set of training and testing data". However, the training data and testing data are diffrent from those used in our paper.
 5. Python main.py
 6. Find checkpoint in the ./checkpoint/coarse_112
 
