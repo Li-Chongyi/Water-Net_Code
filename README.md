@@ -20,8 +20,8 @@ TensorFlow 1.x and Matlab.
 2. Download the VGG-pretrained model from Dropbox: https://drive.google.com/open?id=1asWe_rCduu6f09uiAz_aEP4KAiuoVSRS or Baidu Cloud: https://pan.baidu.com/s/1seDVBooFkmaJ6qF5kuAIsQ (Password: c0nj) (It's preparing for perception loss.)
 2. Set the network parameters, including learning rate, batch, weights of losses, etc., according to the paper
 3. Generate the preprocessing training data by using the "generate_training_data.m" in folder named generate_test_data
-4. Put the training data to corresponding folders (raw images to "input_train",  WB images to "input_wb_train", GC images to "input_gc_train", HE images to "input_ce_train"); We randomly select the training data from our released dataset. The performance of different training data is almost same
-5. In this code, you can add validation data by preprocessing your validation data (with GT) by the "generate_validation_data.m" in folder named generate_test_data, then put them to the corresponding folders (raw images to "input_test",  WB images to "input_wb_test", GC images to "input_gc_test", HE images to "input_ce_test")
+4. Put the training data to corresponding folders (raw images to "input_train",  WB images to "input_wb_train", GC images to "input_gc_train", HE images to "input_ce_train", Ground Truth images to "gt_train"); We randomly select the training data from our released dataset. The performance of different training data is almost same
+5. In this code, you can add validation data by preprocessing your validation data (with GT) by the "generate_validation_data.m" in folder named generate_test_data, then put them to the corresponding folders (raw images to "input_test",  WB images to "input_wb_test", GC images to "input_gc_test", HE images to "input_ce_test", Ground Truth images to "gt_test")
 5. Python main.py
 6. Find checkpoint in the ./checkpoint/coarse_112
 
