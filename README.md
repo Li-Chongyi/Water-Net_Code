@@ -3,6 +3,7 @@ This is the code of the implementation of the underwater image enhancement netwo
 
 # Requirment
 TensorFlow 1.x and Matlab.
+The missed vgg.py has been added. 
 
 ## **Usage**
 
