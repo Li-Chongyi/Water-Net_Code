@@ -1,9 +1,10 @@
 # TensorFlow-Water-Net
 This is the code of the implementation of the underwater image enhancement network (Water-Net) described in "Chongyi Li, Chunle Guo, Wenqi Ren, Runmin Cong, Junhui Hou, Sam Kwong, Dacheng Tao , <An Underwater Image Enhancement Benchmark Dataset and Beyond> IEEE TIP 2019". If you use our code or dataset for academic purposes, please consider citing our paper. Thanks.
 
-# Requirment
-TensorFlow 1.x and Matlab.
+# Requirement
+TensorFlow 1.x, Cuda 8.0, and Matlab.
 The missed vgg.py has been added. 
+The requirement.txt has been added.
 
 ## **Usage**
 
