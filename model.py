@@ -82,13 +82,13 @@ class T_CNN(object):
     expand_zero = np.zeros([self.batch_size-1,shape[0],shape[1],shape[2]])
     batch_test_wb = np.append(expand_test,expand_zero,axis = 0)
 
-    ce_test =  get_image(self.test_ce_name,is_grayscale=False)
+    ce_test =  get_image(self.test_wb_name,is_grayscale=False)
     shape = ce_test.shape
     expand_test = ce_test[np.newaxis,:,:,:]
     expand_zero = np.zeros([self.batch_size-1,shape[0],shape[1],shape[2]])
     batch_test_ce = np.append(expand_test,expand_zero,axis = 0)
 
-    gc_test =  get_image(self.test_gc_name,is_grayscale=False)
+    gc_test =  get_image(self.test_wb_name,is_grayscale=False)
     shape = gc_test.shape
     expand_test = gc_test[np.newaxis,:,:,:]
     expand_zero = np.zeros([self.batch_size-1,shape[0],shape[1],shape[2]])
